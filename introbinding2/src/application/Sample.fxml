@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Slider fx:id="mslider" blockIncrement="0.1" layoutX="171.0" layoutY="69.0" max="1.0" />
+      <ProgressBar fx:id="mprogress" layoutX="136.0" layoutY="160.0" prefHeight="55.0" prefWidth="228.0" progress="0.0" />
+      <ProgressIndicator fx:id="mindicator" layoutX="198.0" layoutY="265.0" prefHeight="70.0" prefWidth="87.0" progress="0.0" />
+      <Button layoutX="136.0" layoutY="230.0" mnemonicParsing="false" onAction="#ajouter" text="&gt;&gt;" />
+      <Button layoutX="329.0" layoutY="230.0" mnemonicParsing="false" onAction="#diminuer" text="&lt;&lt;" />
+   </children>
+</AnchorPane>
